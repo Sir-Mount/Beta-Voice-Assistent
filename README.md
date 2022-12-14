@@ -3,6 +3,7 @@
 
 You can interact with it through saying the wakeword "Beta"
 Rightafter you say on of the command words:
+* "Ask": With this command you can make the assistent ask questions to OpenAI (You will need an OPENAI_API_KEY for this.).
 * "Joke": This will make the assistent tell a programmer joke.
 * "Play"+(some music or video name): This will open the browser and play the first video on youtube with said name.
 * "Run"+(application name): This will start the application of that name.*
