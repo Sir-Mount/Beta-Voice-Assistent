@@ -2,6 +2,8 @@ from vosk import Model, KaldiRecognizer
 import pyaudio
 import text_to_speech
 
+import openai
+
 from command.BaseCommand import BaseCommand
 from command import PlayCommand, \
     WikiCommand, \
@@ -9,7 +11,8 @@ from command import PlayCommand, \
     JokeCommand, \
     TimeCommand, \
     DateCommand, \
-    RunCommand
+    RunCommand, \
+    AiCommand
 
 en_model = Model(r'C:\Users\aron\PycharmProjects\pythonProject\VoskModels\vosk-model-small-en-us-0.15')
 recognizer = KaldiRecognizer(en_model, 16000)
@@ -26,6 +29,7 @@ action_commands = [PlayCommand.PlayCommand("play"),
                    RunCommand.RunCommand("run")]
 
 info_commands = [WikiCommand.WikiCommand("look up"),
+                 AiCommand.AiCommand("ask"),
                  JokeCommand.JokeCommand("joke"),
                  TimeCommand.TimeCommand("time"),
                  DateCommand.DateCommand("day")]
