@@ -38,7 +38,7 @@ control_commands = [ShutDownCommand.ShutDownCommand("stop")]
 
 command_categories = [action_commands, info_commands, control_commands]
 
-wake_word = "beta"
+wake_word = "buddy"
 
 
 def get_input():
