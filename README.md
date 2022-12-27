@@ -1,7 +1,7 @@
-# Beta Voice Assistent
+# Buddy Voice Assistent
  A simple voice assistent written in python
 
-You can interact with it through saying the wakeword "Beta"
+You can interact with it through saying the wakeword "Buddy"
 Rightafter you say on of the command words:
 * "Ask": With this command you can make the assistent ask questions to OpenAI (You will need an OPENAI_API_KEY for this.).
 * "Joke": This will make the assistent tell a programmer joke.
